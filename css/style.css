@@ -9,11 +9,10 @@
 	src: url('../assets/fonts/static/Inter-Bold.ttf');
 }
 
-/* @font-face {
-  font-family: Inter;
-  src: url('../assets/fonts/static/Inter-ExtraBold.ttf');
-  font-weight: bolder;
-} */
+@font-face {
+	font-family: Inter-bolder;
+	src: url('../assets/fonts/static/Inter-ExtraBold.ttf');
+}
 
 :root {
 	--offWhite: hsl(36, 100%, 99%);
@@ -29,7 +28,7 @@
 }
 
 body {
-	background-color: var(--lightGrayishBlue);
+	background-color: var(--offWhite);
 	color: var(--darkGrayishBlue);
 	font-size: 15px;
 	font-weight: 400;
@@ -92,6 +91,7 @@ header {
 .col.quote {
 	grid-column: 1/2;
 	grid-row: 2/3;
+  align-self: end;
 }
 .col.details {
 	grid-column: 2/3;
@@ -104,10 +104,9 @@ header {
 
 .hero .quote h1 {
 	color: var(--veryDarkBlue);
-	font-size: 52px;
+	font-size: 54px;
 	font-weight: 800;
 	line-height: 1.1;
-	letter-spacing: 3px;
 }
 
 .hero .details {
@@ -176,10 +175,13 @@ header {
 	margin-bottom: 10px;
 	font-size: 32px;
 	line-height: 1;
+  color: var(--grayishBlue);
 }
 .article-card sub {
 	font-size: 18px;
-	font-weight: 700;
+	font-weight: 800;
+  color: var(--veryDarkBlue);
+  font-family: Inter-bolder;
 }
 .article-card p {
 	margin-top: 10px;
