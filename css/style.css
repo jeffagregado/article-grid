@@ -1,0 +1,17 @@
+:root {
+	--darkGrayishBlue: hsl(217, 19%, 35%);
+	--desaturatedDarkBlue: hsl(214, 17%, 51%);
+	--grayishBlue: hsl(212, 23%, 69%);
+	--lightGrayishBlue: hsl(210, 46%, 95%);
+
+	--mobile: 375px;
+	--desktop: 1440px;
+}
+
+body {
+	background-color: var(--lightGrayishBlue);
+	color: var(--grayishBlue);
+	font-size: 13px;
+	font-family: 'Manrope', sans-serif;
+	container-type: inline-size;
+}
