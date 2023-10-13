@@ -68,8 +68,9 @@ header {
 	justify-content: space-between;
 	gap: 43px;
 }
-.pc-nav ul a:hover, .pc-nav ul a:active {
- color: var(--SoftRed);
+.pc-nav ul a:hover,
+.pc-nav ul a:active {
+	color: var(--SoftRed);
 }
 
 .hero.grid {
@@ -147,7 +148,8 @@ header {
 	color: var(--SoftOrange);
 	font-size: 40px;
 }
-.hero-aside h3 a:hover, .hero-aside h3 a:active {
+.hero-aside h3 a:hover,
+.hero-aside h3 a:active {
 	color: var(--SoftOrange);
 }
 .hero-aside h3,
@@ -189,7 +191,8 @@ header {
 	font-weight: 800;
 	font-family: Inter-bolder;
 }
-.article-card sub a:hover, .article-card sub a:active {
+.article-card sub a:hover,
+.article-card sub a:active {
 	color: var(--SoftRed);
 }
 .article-card p {
